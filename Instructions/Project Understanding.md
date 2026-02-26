@@ -291,10 +291,3 @@ You see the final answer.
 
 
 
-Personal Notes
-We create claude .md file to make claude the information about the project, 
-/init will read all the files content and generate claude.md file we will need to allow as yes. 
-
-Finally we opened the claude.md file and updated more information under the project overview section in depth details about what are we providing and what we want to achieve here.
-If we have a bigger project t with frond and backend etc then component wise we can keep the claude,md file for the same. Whenever  anew session starts claude will look for this .md file and understand the task to be completed. We should not put secrets in claude,md file since this can be committed to github. Secrets can ither go to .env file or .claude/settings.local.json  
-In traditional DevOps workflow, an engineer spends hours writing Terraform files, YML pipeline, and IAM policy. In agentic workflow, that time goes into writing a good CloudAid.md file. CloudAid.md is not just a description, it is your engineering investment. Every line you write here saves your time later because CloudAid reads it and follows it across every session, every skill, and every agent.
